@@ -24,7 +24,7 @@ from DAXXMUSIC.utils.database import (
     is_on_off,
 )
 from DAXXMUSIC.utils.decorators.language import LanguageStart
-from DAXXMUSIC.utils.inline import first_page, private_panel, start_panel
+from DAXXMUSIC.utils.inline import help_pannel, private_panel, start_panel
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
