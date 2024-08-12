@@ -9,24 +9,24 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID" , "25488022" ))
+API_HASH = getenv("API_HASH" , "0c999a454fddd79251213be7944811e8)
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN" , "7194323242:AAEaAiGqKTKNFb-JYlW_kqRxgL5hG2MXa3M")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","EvoXpro")
+OWNER_USERNAME = getenv("OWNER_USERNAME","YT_FARMAN")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "EvoXpro")
+BOT_USERNAME = getenv("BOT_USERNAME" , "YTNAISHABOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "EvoXpro")
+BOT_NAME = getenv("BOT_NAME" , "🦋⁂༄🇳 𝗮𝗶🇸 𝗵🇦༄⁂🦋")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MREVO")
+ASSUSERNAME = getenv("ASSUSERNAME" , "YTNAISHABOT")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ytfarmusicbot:SL2WFsjdAfD8ua0M@ytfarmusicbot.rbse6gt.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -116,7 +116,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQE0IQYAe-G2NCx3X7mhimx9ANPNty2TDOMkIwihPLlidMHtc0mofK5icXdvsQ7Ib8yHV0TrSHSBhBm_FdZ7R3xwN-k8sN5MWskocNKsmL3pBw_rjogcdWY9pmTvcdXLa9V27UUbAwwfqcr9Pzt5z-wyCpfS2dELXHsiyTteZuWEX1pYDd2i57WC3kVQ0AzkwetFK6tkkRny8rhFaK6iofXGKMkGmTZAwolwcuS328m2zJ5y3ESW-NrIefJUb9-331SpBcLWp_HfbXeex9MTiH6CEawDRfTsPbnXzOqjT-I2Vh671pRKb2_VXQhtb0w1qsNDYSJLhIMBVGTNVfBhuHAkMFVMaQAAAAF1OcbvAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
